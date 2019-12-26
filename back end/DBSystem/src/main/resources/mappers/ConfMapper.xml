@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace属性值通常设置为：包名 + SQL映射文件名来指定唯一的命名空间 -->
+<mapper namespace="dbsystem.sun.dao.ConfDao">
+
+    <insert id="saveConference">
+        insert into conference
+        (confName, startTime, endTime, roomName, state, publisher)
+        values
+        (#{confName}, #{startTime}, #{endTime}, #{roomName}, #{state}, #{publisher});
+    </insert>
+
+
+    <delete id="deleteConference">
+        delete from conference where confId = #{confId};
+    </delete>
+
+
+    <select id="listDates" resultType="com.alibaba.fastjson.JSONObject">
+        select o.startTime, o.endTime from conference o where o.roomName = #{roomName} and o.state = 1;
+    </select>
+
+
+    <update id="updateConference">
+        update conference set confName = #{confName}, startTime = #{startTime}, endTime = #{endTime},
+    roomName = #{roomName} where confId = #{confId};
+    </update>
+
+
+
+    <!-- 用视图列出 -->
+    <select id="listConferences" resultType="com.alibaba.fastjson.JSONObject">
+        select c.confId, c.confName, c.startTime, c.endTime, b.buildingName, r.roomName
+        from conference c
+
+        inner join room r on c.roomName = r.roomName
+
+        inner join building b on r.bId = b.bId
+
+        where c.publisher = #{publisher} and c.state = 1
+
+        group by c.confId;
+    </select>
+
+
+    <select id="listAllBuildings" resultType="dbsystem.sun.domain.Building">
+
+        select * from building;
+
+    </select>
+
+
+    <select id="listAllRooms" resultType="String">
+        select roomName from room where bId = #{bId};
+    </select>
+
+    <update id="polling">
+        update conference c set c.state = 0 where now() >= c.endTime;
+    </update>
+
+
+</mapper>

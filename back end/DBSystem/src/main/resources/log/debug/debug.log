@@ -1,0 +1,80 @@
+2019-12-26 00:03:09  [ main:0 ] - [ INFO ]  {"updateTime":1577273615000,"title":"sum4","sumId":4,"content":"This is the first content."}
+2019-12-26 00:03:09  [ main:133 ] - [ INFO ]  {"msg":"query successful","code":200}
+2019-12-26 00:17:45  [ main:0 ] - [ INFO ]  {"updateTime":1577273615000,"title":"sum4","sumId":4,"content":"This is the first content."}
+2019-12-26 00:17:45  [ main:83 ] - [ INFO ]  {"msg":"query successful","code":200}
+2019-12-26 13:18:06  [ main:1 ] - [ INFO ]  [{"updateTime":1577273615000,"title":"sum4","sumId":4,"content":"This is the first content."}]
+2019-12-26 13:18:06  [ main:142 ] - [ INFO ]  {"msg":"query successful","code":200}
+2019-12-26 13:19:17  [ main:0 ] - [ INFO ]  [{"updateTime":1577273615000,"title":"sum4","sumId":4,"content":"This is the first content."}]
+2019-12-26 13:19:17  [ main:108 ] - [ INFO ]  {"msg":"query successful","code":200}
+2019-12-26 13:20:04  [ main:0 ] - [ INFO ]  [{"updateTime":1577273615000,"title":"sum4","sumId":4,"content":"This is the first content."}]
+2019-12-26 13:20:04  [ main:377 ] - [ INFO ]  {"msg":"query successful","code":200}
+2019-12-26 13:34:52  [ http-nio-8080-exec-1:0 ] - [ INFO ]  hello list conferences
+2019-12-26 13:37:36  [ http-nio-8080-exec-3:0 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 13:37:36  [ http-nio-8080-exec-3:8 ] - [ INFO ]  {"confId":5}
+2019-12-26 13:56:18  [ http-nio-8080-exec-7:1122248 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 13:56:18  [ http-nio-8080-exec-7:1122252 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:04:49  [ http-nio-8080-exec-5:1632835 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:04:49  [ http-nio-8080-exec-5:1632836 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:11:30  [ http-nio-8080-exec-1:2034713 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:11:30  [ http-nio-8080-exec-1:2034714 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:15:54  [ http-nio-8080-exec-8:2298382 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:15:54  [ http-nio-8080-exec-8:2298383 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:17:13  [ http-nio-8080-exec-2:2377448 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:17:13  [ http-nio-8080-exec-2:2377449 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:19:19  [ http-nio-8080-exec-4:2502944 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:19:19  [ http-nio-8080-exec-4:2502945 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:20:38  [ http-nio-8080-exec-9:2582775 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:20:38  [ http-nio-8080-exec-9:2582776 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:21:21  [ http-nio-8080-exec-3:2625418 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:21:21  [ http-nio-8080-exec-3:2625419 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:29:00  [ http-nio-8080-exec-2:0 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 14:29:00  [ http-nio-8080-exec-2:32 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 14:29:56  [ http-nio-8080-exec-3:55615 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 14:29:56  [ http-nio-8080-exec-3:55623 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 14:30:31  [ http-nio-8080-exec-6:91093 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 14:30:31  [ http-nio-8080-exec-6:91098 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 14:34:45  [ http-nio-8080-exec-3:344853 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:34:45  [ http-nio-8080-exec-3:344854 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:34:55  [ http-nio-8080-exec-6:354792 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:34:55  [ http-nio-8080-exec-6:354794 ] - [ INFO ]  {"confId":5}
+2019-12-26 14:35:08  [ http-nio-8080-exec-8:367456 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 14:35:08  [ http-nio-8080-exec-8:367461 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 14:35:10  [ http-nio-8080-exec-10:370351 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:35:10  [ http-nio-8080-exec-10:370352 ] - [ INFO ]  {"confId":20}
+2019-12-26 14:35:27  [ http-nio-8080-exec-5:386945 ] - [ INFO ]  hello list conferences
+2019-12-26 14:45:24  [ http-nio-8080-exec-1:984121 ] - [ INFO ]  hello list conferences
+2019-12-26 14:52:15  [ http-nio-8080-exec-10:1395343 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 14:52:15  [ http-nio-8080-exec-10:1395348 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 14:52:19  [ http-nio-8080-exec-2:1399308 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 14:52:19  [ http-nio-8080-exec-2:1399309 ] - [ INFO ]  {"confId":20}
+2019-12-26 14:52:35  [ http-nio-8080-exec-5:1414732 ] - [ INFO ]  hello list conferences
+2019-12-26 16:41:56  [ http-nio-8080-exec-10:7976418 ] - [ INFO ]  hello list conferences
+2019-12-26 16:42:13  [ http-nio-8080-exec-4:7992580 ] - [ INFO ]  hello list conferences
+2019-12-26 16:42:20  [ http-nio-8080-exec-7:7999739 ] - [ INFO ]  hello list conferences
+2019-12-26 16:42:41  [ http-nio-8080-exec-1:8020923 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 16:42:41  [ http-nio-8080-exec-1:8020929 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 16:42:44  [ http-nio-8080-exec-4:8023604 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 16:42:44  [ http-nio-8080-exec-4:8023605 ] - [ INFO ]  {"confId":21}
+2019-12-26 16:55:37  [ http-nio-8080-exec-3:8797393 ] - [ INFO ]  hello list conferences
+2019-12-26 16:55:57  [ http-nio-8080-exec-6:8817332 ] - [ INFO ]  hello list conferences
+2019-12-26 16:56:16  [ http-nio-8080-exec-8:8835556 ] - [ INFO ]  save summary serviceImpl begin: 
+2019-12-26 16:56:16  [ http-nio-8080-exec-8:8835561 ] - [ INFO ]  向conference中插入sumId begin: 
+2019-12-26 16:56:19  [ http-nio-8080-exec-10:8839230 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 16:56:19  [ http-nio-8080-exec-10:8839231 ] - [ INFO ]  {"confId":23}
+2019-12-26 17:00:33  [ http-nio-8080-exec-10:9092632 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 17:00:33  [ http-nio-8080-exec-10:9092633 ] - [ INFO ]  {"confId":5}
+2019-12-26 17:00:41  [ http-nio-8080-exec-2:9101322 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 17:00:41  [ http-nio-8080-exec-2:9101323 ] - [ INFO ]  {"confId":21}
+2019-12-26 17:00:45  [ http-nio-8080-exec-4:9104891 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 17:00:45  [ http-nio-8080-exec-4:9104892 ] - [ INFO ]  {"confId":20}
+2019-12-26 17:01:08  [ http-nio-8080-exec-9:9127806 ] - [ INFO ]  hello list conferences
+2019-12-26 17:01:47  [ http-nio-8080-exec-1:9166782 ] - [ INFO ]  hello list conferences
+2019-12-26 17:08:55  [ http-nio-8080-exec-5:9594563 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 17:08:55  [ http-nio-8080-exec-5:9594564 ] - [ INFO ]  {"confId":23}
+2019-12-26 18:03:39  [ http-nio-8080-exec-9:12878883 ] - [ INFO ]  hello list conferences
+2019-12-26 18:03:46  [ http-nio-8080-exec-2:12885697 ] - [ INFO ]  hello list conferences
+2019-12-26 18:05:59  [ http-nio-8080-exec-9:13019267 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 18:05:59  [ http-nio-8080-exec-9:13019268 ] - [ INFO ]  {"confId":5}
+2019-12-26 18:23:10  [ http-nio-8080-exec-2:14049927 ] - [ INFO ]  ------- listSummaryInfo controller --------
+2019-12-26 18:23:10  [ http-nio-8080-exec-2:14049928 ] - [ INFO ]  {"confId":20}
+2019-12-26 18:23:31  [ http-nio-8080-exec-4:14071236 ] - [ INFO ]  hello list conferences

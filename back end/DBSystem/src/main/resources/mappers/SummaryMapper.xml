@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace属性值通常设置为：包名 + SQL映射文件名来指定唯一的命名空间 -->
+<mapper namespace="dbsystem.sun.dao.SummaryDao">
+
+    <select id="listSummaryInfo" resultType="com.alibaba.fastjson.JSONObject">
+      select s.sumId, s.title, s.content, s.updateTime from summary s
+        inner join conference c on s.sumId = c.sumId where c.confId = #{confId};
+    </select>
+
+    <insert id="saveSummary" useGeneratedKeys="true" keyProperty="sumId" parameterType="dbsystem.sun.domain.Summary">
+      insert into summary (title, content, updateTime) values (
+        #{title}, #{content}, now());
+    </insert>
+
+    <update id="saveSum">
+      update conference set sumId = #{sumId} where confId = #{confId};
+    </update>
+
+
+    <update id="updateSummary">
+      update summary set title = #{title}, content = #{content}, updateTime = now()
+        where sumId = #{sumId};
+    </update>
+
+
+    <delete id="deleteSummary">
+      delete from summary where sumId = #{sumId};
+    </delete>
+
+
+    <select id="listSummary" resultType="com.alibaba.fastjson.JSONObject">
+      select c.confId, c.confName, c.sumId from conference c where c.state = 0 and c.publisher = #{publisher};
+    </select>
+
+</mapper>
