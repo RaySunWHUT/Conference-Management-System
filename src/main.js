@@ -17,29 +17,30 @@ Vue.config.productionTip = false
 Vue.use(VueAxios, axios)
 Vue.use(iView)
 
-// router.beforeEach((to, from, next) => {
+router.beforeEach((to, from, next) => {
 
-//     if (to.fullPath === '/login') {
+    if (to.fullPath === '/') { // "/"为login路径
 
-//         next()
-//     } else {
+        next()
 
-//         var token = storage.get('token')
-//         console.log('token', token)
+    } else {
 
-//         if (token != null) {
+        var token = storage.get('token')
+        console.log('token', token)
 
-//             next()
+        if (token != null) {
 
-//         } else {
+            next()
 
-//             next('*')
+        } else {
 
-//         }
+            next('*')
 
-//     }
+        }
 
-// })
+    }
+
+})
 
 
 new Vue({

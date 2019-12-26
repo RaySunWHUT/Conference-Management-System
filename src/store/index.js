@@ -13,45 +13,100 @@ export default new Vuex.Store({
 
         token: null,
 
-        user: {
+        userAccount: null,
+        password: null,
 
-            userAccount: null,
-            password: null,
-            role: null,
-            status: null
 
-        }
+        summary: {
+
+            sumId: null,
+            title: null,
+            content: null,
+            confId: null,
+            updateTime: null
+
+        },
+
+        sumId: null,
+        title: null,
+        content: null,
+        confId: null,
+        updateTime: null
+
 
     },
 
     mutations: { // 用来直接修改state内的数据；在组件内，通过·this.$store.commit(方法名)来执行mutations
 
-        setLabValue(state, value) { // 将实验室数据存入data
-            state.data.Lab = value
-        },
-
-        setEquipmentValue(state, value) { // 将仪器存入data
-            state.data.equipments = value
-        },
-
-        setExperimentValue(state, value) {
-            state.data.experiments = value
-        },
-
         setToken(state, value) {
             state.token = value
         },
 
-        createUser(state, payload) {
-            state.user.userAccount = payload.userAccount
-            state.user.password = payload.password
 
-            if (state.token === null) { // token失效，status == 0
-                state.user.status = 0
-            } else { // token存在, status == 1
-                state.user.status = 1
-            }
+        setUserAccount(state, value) {
+
+            state.userAccount = value;
+
+        },
+
+        setPassword(state, value) {
+
+            state.password = value;
+
+        },
+
+        setSummary(state, summary) {
+            state.summary = summary;
+        },
+
+        setSumId(state, value) {
+
+            state.sumId = value;
+
+        },
+
+        setTitle(state, value) {
+
+            state.title = value;
+
+        },
+
+        setContent(state, value) {
+
+            state.content = value;
+
+        },
+
+        setConfId(state, value) {
+
+            state.confId = value;
+
+        },
+
+        setUpdateTime(state, value) {
+
+            state.updateTime = value;
+
         }
+
+
+
+        // createUser(state, payload) {
+
+        //     state.user.userAccount = payload.userAccount
+        //     state.user.password = payload.password
+
+        //     if (state.token === null) { // token失效，status == 0
+
+        //         state.user.status = 0
+
+        //     } else { // token存在, status == 1
+
+        //         state.user.status = 1
+
+        //     }
+
+        // }
 
     },
 
