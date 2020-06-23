@@ -26,46 +26,46 @@ The follow is the problem exists in this project, I will solve them later.
 
 1. 登录
 
-   ![login](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/login.png)
+   ![login](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/login.png)
 
 2. 首页
 
-   ![home](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/home.png)
+   ![home](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/home.png)
 
 3. 网络预订
 
-   ![order](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/order.png)
+   ![order](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/order.png)
 
    1. 会议冲突
 
-      ![conflict](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/conflict.png)
+      ![conflict](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/conflict.png)
 
    2. 预约成功
 
-      ![orderSuccess](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/orderSuccess.png)
+      ![orderSuccess](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/orderSuccess.png)
 
 4. 会议管理
    1. 删除会议
 
-      ![deleteOrder](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/deleteOrder.png)
+      ![deleteOrder](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/deleteOrder.png)
 
    2. 更新会议
 
-      ![updateOrder](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/updateOrder.png)
+      ![updateOrder](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/updateOrder.png)
 
 5. 纪要管理
    1. 查询会议纪要信息
 
-      ![selectSum](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/selectSum.png)
+      ![selectSum](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/selectSum.png)
 
    2. 上传纪要
 
-      ![uploadSum](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/uploadSum.png)
+      ![uploadSum](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/uploadSum.png)
 
    3. 更新纪要
 
-      ![updateSum](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/updateSum.png)
+      ![updateSum](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/updateSum.png)
 
    4. 删除纪要
 
-      ![deleteSum](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/deleteSum.png)
+      ![deleteSum](https://github.com/RaySunWHUT/Conference-Management-System/blob/master/assets/deleteSum.png)
