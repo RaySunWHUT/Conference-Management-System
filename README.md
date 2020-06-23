@@ -22,3 +22,19 @@ The follow is the problem exists in this project, I will solve them gradually.
 	1. 未对logout功能做进一步处理。
 
  	2. 未对Constants和JSONObject规范化处理。
+
+**系统功能**展示：
+
+1. 登录
+2. 首页
+3. 网络预订
+   1. 会议冲突
+   2. 预约成功
+4. 会议管理
+   1. 删除会议
+   2. 更新会议
+5. 纪要管理
+   1. 查询会议纪要信息
+   2. 上传纪要
+   3. 更新纪要
+   4. 删除纪要
