@@ -26,7 +26,7 @@ The follow is the problem exists in this project, I will solve them later.
 
 1. 登录
 
-   ![login](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/login.ong)
+   ![login](https://github.com/RaySunWHUT/Conference-Management-System/tree/master/assets/login.png)
 
 2. 首页
 
